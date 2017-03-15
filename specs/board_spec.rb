@@ -8,6 +8,9 @@ def setup
 end
 def test_obstacles
   @board.check_obstacles(5)
-  assert_equal(5, @boards.obstacles[keys])
+  assert_equal(5, @board.obstacles[4])
+end
+def test_move_obstacles
+  @board.move_obstacles()
 end
 end
