@@ -15,7 +15,7 @@ class DiceTest < MiniTest::Test
 
  def test_roll_within_range
    dice_roll_2 = @my_dice.roll
-   assert_equal(true, dice_roll_2 <= 6)
+   assert_equal(true,dice_roll_2 <= 6)
  end
 
 
