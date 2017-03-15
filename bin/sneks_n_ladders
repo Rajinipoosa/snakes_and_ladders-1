@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require 'pry'
+require_relative '../lib/sneks_n_ladders.rb'
+
+my_game = GameOfSneks.new
+my_game.play
