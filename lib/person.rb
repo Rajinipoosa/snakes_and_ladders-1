@@ -1,9 +1,13 @@
 class Person
-  def initialize(name,postion)
+  attr_reader :name
+  attr_accessor :position
+  def initialize(name)
     @name = name
     @position = 0
 
   end
+
+
 
 
 end
